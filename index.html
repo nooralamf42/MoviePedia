@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>MoviePedia</title>
+</head>
+<body>
+    <section>
+        <div class="search-container container">
+            <input type="text" class="search-input" id="userInput">
+            <button class="search-btn" id="searchBtn">Get Data</button>
+            <h1></h1>
+        </div>
+    </section>
+
+    <section>
+        <div class="intro-container container">
+                <h1>MoviePedia allows you to get any movie's details <span>with a single click</span></h1>
+                <p>With MoviePedia you can get all details of any movie or tv series with all details like duration, release date, box-office collection , iMDB ratings and much more.</p>
+        </div>
+    </section>
+
+    <section>
+        <div class="" id="loadingScreen"></div>
+    </section>
+
+    <section>
+        <div class="container notFoundContainer notFoundHidden">
+            <img id="notFound" src="https://media.giphy.com/media/3Zp8CshcNtX6Mtr2Oj/giphy.gif" alt="" srcset="">
+            <h1>Not Found!</h1>
+        </div>
+    </section>
+    <section>
+        <div class="demo-container container" id="hide">
+            <div class="description">
+                <h2 id="movieName"></h2>
+                <p id="plot"></p>
+                <p id="released"></p>
+                <p id="runtime"></p>
+                <p id="genre"></p>
+                <p id="director"></p>
+                <p id="actors"></p>
+                <p id="language"></p>
+                <p id="awards"></p>
+                <p id="rating"></p>
+                <p id="boxOffice"></p>
+                
+            </div>
+            <img id="demoImg" class="demo-img" src="" alt="">
+        </div>
+    </section>
+    <script src="app.js"></script>
+</body>
+</html>
